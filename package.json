@@ -1,7 +1,7 @@
 {
   "name": "@nappr/eslint-config-react-app",
   "description": "ESLint React extensible shared config",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "index.js",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.1.1",
@@ -20,7 +20,8 @@
     "eslint-plugin-sort-destructure-keys": "^2.0.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "eslint-plugin-testing-library": "^6.2.0",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "typescript": "^5.5.4"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.1.1",
@@ -38,10 +39,12 @@
     "eslint-plugin-sort-destructure-keys": "^2.0.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "eslint-plugin-testing-library": "^6.2.0",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "typescript": "^5.5.4"
   },
   "scripts": {
+    "cleanup": "rm -rf node_modules",
     "check:rules": "eslint-find-rules",
-    "check:deprecated": "node ./scripts/check-deprecated.js"
+    "check:deprecated": "node ./.scripts/check-deprecated.js"
   }
 }
