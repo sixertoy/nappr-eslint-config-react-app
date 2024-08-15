@@ -1,0 +1,9 @@
+{
+  "name": "@nappr/eslint-config-react-app",
+  "description": "eslint extensible shared config",
+  "version": "0.1.1",
+  "main": "index.js",
+  "scripts": {
+    "deprecated:check": "node ./scripts/check-deprecated.js"
+  }
+}

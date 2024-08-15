@@ -1,2 +1,3 @@
 # nappr-eslint-config
-eslint extensible shared config
+
+[eslint](https://eslint.org/) extensible shared config
